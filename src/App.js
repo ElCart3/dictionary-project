@@ -7,7 +7,10 @@ function App() {
         <div className="container">
           <div className="App">Hello from app</div>
           <footer>
-            This page was coded by Ellie and is <a href="#">open-sourced</a>
+            This page was coded by Ellie and is{" "}
+            <a href="https://github.com/ElCart3/dictionary-project">
+              open-sourced
+            </a>
           </footer>
         </div>
       </header>
