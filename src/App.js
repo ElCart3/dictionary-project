@@ -8,10 +8,12 @@ function App() {
         <div className="container">
           <Dictionary />
           <footer>
-            This page was coded by Ellie and is{" "}
-            <a href="https://github.com/ElCart3/dictionary-project">
-              open-sourced
-            </a>
+            <small>
+              This page was coded by Ellie and is{" "}
+              <a href="https://github.com/ElCart3/dictionary-project">
+                open-sourced
+              </a>
+            </small>
           </footer>
         </div>
       </header>
