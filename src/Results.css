@@ -1,0 +1,12 @@
+.Results .search-result {
+  background-color: rgba(198, 64, 216, 0.3);
+  border: 2px solid rgb(198, 64, 216);
+  border-radius: 4px;
+  margin: 30px auto 0px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.Results h2 {
+  text-transform: capitalize;
+}

@@ -1,0 +1,23 @@
+.Meaning {
+  padding: 30px 0px;
+  border-bottom: 2px solid rgb(198, 64, 216);
+}
+
+.Meaning .meaning-position {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.Meaning .definitions-result {
+  margin: 25px 0px;
+}
+
+.Meaning .definition {
+  font-size: 16px;
+}
+
+.Meaning .example {
+  font-size: 15px;
+  opacity: 0.7;
+  font-style: italic;
+}

@@ -1,0 +1,15 @@
+.Synonyms ul {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.Synonyms li {
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 5px 5px;
+  text-transform: capitalize;
+  background-color: rgba(198, 64, 216, 0.3);
+  border-radius: 4px;
+}

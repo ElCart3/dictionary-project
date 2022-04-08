@@ -1,0 +1,9 @@
+.Phonetics audio {
+  width: 177px;
+  height: 35px;
+}
+
+.Phonetics .text {
+  font-size: 18px;
+  opacity: 0.8;
+}

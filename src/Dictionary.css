@@ -1,0 +1,12 @@
+.Dictionary input {
+  width: 500px;
+  border: 2px solid rgb(198, 64, 216);
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  font-size: 18px;
+}
+
+.Dictionary input:focus {
+  outline: none;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Phonetics.css";
 
 export default function Phonetics(props) {
   console.log(props.phonetic);
@@ -9,7 +10,7 @@ export default function Phonetics(props) {
           Your browser does not support the audio element.
         </audio>
         <br />
-        {props.phonetic.text}
+        <div className="text">{props.phonetic.text}</div>
       </div>
     );
   } else {
