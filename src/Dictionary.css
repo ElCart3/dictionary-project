@@ -10,3 +10,9 @@
 .Dictionary input:focus {
   outline: none;
 }
+
+@media (max-width: 576px) {
+  .Dictionary input {
+    width: 100%;
+  }
+}

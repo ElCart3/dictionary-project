@@ -8,6 +8,10 @@
   margin: 0 auto;
 }
 
+.Meaning .definition-position {
+  margin-left: 40px;
+}
+
 .Meaning .definitions-result {
   margin: 25px 0px;
 }
@@ -20,4 +24,14 @@
   font-size: 15px;
   opacity: 0.7;
   font-style: italic;
+}
+
+@media (max-width: 576px) {
+  .Meaning .meaning-position {
+    text-align: center;
+  }
+
+  .Meaning .definition-position {
+    margin: 0px;
+  }
 }
