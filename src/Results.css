@@ -1,10 +1,10 @@
 .Results .search-result {
-  background-color: rgba(198, 64, 216, 0.3);
-  border: 2px solid rgb(198, 64, 216);
-  border-radius: 4px;
+  background-color: #ee4d345f;
+  border-radius: 20px;
   margin: 30px auto 0px;
   text-align: center;
   padding: 20px 0px;
+  box-shadow: 5px 6px 10px #ee4d34;
 }
 
 .Results h2 {

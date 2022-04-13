@@ -5,11 +5,17 @@ export default function Phonetics(props) {
   if (props.phonetic.audio) {
     return (
       <div className="Phonetics">
-        <audio controls src={props.phonetic.audio}>
-          Your browser does not support the audio element.
-        </audio>
-        <br />
-        <div className="text">{props.phonetic.text}</div>
+        <audio className="audio" src={props.phonetic.audio}></audio>
+        <span
+          className="btn"
+          onClick={function () {
+            const audio = document.getElementsByClassName("audio")[0];
+            audio.play();
+          }}
+        >
+          <i class="fa-solid fa-play"></i>
+        </span>
+        <span className="text">{props.phonetic.text}</span>
       </div>
     );
   } else {

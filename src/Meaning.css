@@ -1,15 +1,17 @@
 .Meaning {
-  padding: 30px 0px;
-  border-bottom: 2px solid rgb(198, 64, 216);
+  margin: 30px 0px;
+  padding: 20px 20px;
+  background-color: #ee4d345f;
+  border-radius: 20px;
+  box-shadow: 5px 6px 10px #ee4d34;
 }
 
 .Meaning .meaning-position {
-  max-width: 600px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 .Meaning .definition-position {
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .Meaning .definitions-result {
