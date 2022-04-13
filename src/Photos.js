@@ -4,7 +4,7 @@ import "./Photos.css";
 export default function Photos(props) {
   if (props.photos) {
     return (
-      <div className="Photos">
+      <div className="Photos text-center">
         {props.photos.map(function (photo, index) {
           return (
             <div key={index}>
