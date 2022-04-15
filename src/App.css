@@ -1,3 +1,13 @@
 .App .container {
   margin-top: 40px;
 }
+
+.App a {
+  color: #6c62d7;
+  text-decoration: none;
+}
+
+.App a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}

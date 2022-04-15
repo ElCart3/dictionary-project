@@ -8,10 +8,12 @@ function App() {
         <Dictionary />
         <footer className="text-center p-2">
           <small>
-            This page was coded by Ellie and is{" "}
+            This page was coded by{" "}
+            <a href="https://quirky-swartz-6e8619.netlify.app/">Ellie</a> and is{" "}
             <a href="https://github.com/ElCart3/dictionary-project">
               open-sourced
-            </a>
+            </a>{" "}
+            on Github
           </small>
         </footer>
       </div>
