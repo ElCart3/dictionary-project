@@ -37,7 +37,9 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <h1 className="text-center mb-5">Enter a word below..</h1>
+      <div className="text-center mb-4">
+        <i className="fas fa-book-open title-icon"></i>
+      </div>
       <form className="text-center" onSubmit={search}>
         <input
           type="search"

@@ -13,7 +13,7 @@ export default function Phonetics(props) {
             audio.play();
           }}
         >
-          <i className="fa-solid fa-play"></i>
+          <i className="fas fa-play"></i>
         </span>
         <span className="text">{props.phonetic.text}</span>
       </div>

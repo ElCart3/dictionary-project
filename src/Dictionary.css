@@ -12,6 +12,11 @@
   outline: none;
 }
 
+.Dictionary .title-icon {
+  font-size: 100px;
+  color: #6c62d7d2;
+}
+
 @media (max-width: 576px) {
   .Dictionary input {
     width: 100%;
